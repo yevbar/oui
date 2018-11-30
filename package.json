@@ -1,9 +1,10 @@
 {
   "private": true,
   "scripts": {
-    "start": "yarn onlyBuild && ./node_modules/.bin/theia start",
-    "onlyBuild": "node_modules/.bin/theia build",
-    "onlyStart": "node_modules/.bin/theia start"
+    "start": "yarn onlyStart",
+    "onlyBuild": "yarn theia build",
+    "onlyStart": "yarn theia start",
+    "postinstall": "yarn onlyBuild"
   },
   "dependencies": {
     "typescript": "latest",
