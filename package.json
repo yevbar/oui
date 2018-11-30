@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "node_modules/.bin/theia build && node_modules/.bin/theia start",
+    "start": "./node_modules/.bin/theia build && ./node_modules/.bin/theia start",
     "onlyBuild": "node_modules/.bin/theia build",
     "onlyStart": "node_modules/.bin/theia start"
   },
